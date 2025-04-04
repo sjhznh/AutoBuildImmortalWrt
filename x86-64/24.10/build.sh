@@ -45,6 +45,8 @@ PACKAGES="$PACKAGES luci-i18n-netdata-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-uhttpd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-arpbind-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
