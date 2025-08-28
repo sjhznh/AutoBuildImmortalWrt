@@ -43,11 +43,3 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netwizard luci-i18n-netwizard-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky lucky"
 # 集客AC
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-gecoosac gecoosac"
-# 自己添加部分
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-wol-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-filemanager-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-autoreboot"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-appfilter-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uhttpd-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netdata-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-arpbind-zh-cn"
