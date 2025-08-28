@@ -6,11 +6,11 @@ on:
       custom_router_ip:
         description: "请设置路由器的管理地址(仅对多网口路由器有效) 格式:192.168.x.1 或 10.x.x.1"
         required: true
-        default: "192.168.100.1"
+        default: "192.168.199.1"
       profile:
         description: '请输入要编译固件大小 单位(MB)'
         required: true
-        default: '1024'
+        default: '2024'
       enable_store:
         description: "集成 store 商店"
         required: false
@@ -28,16 +28,16 @@ on:
       enable_pppoe:
         description: "是否配置PPPoE拨号信息?"
         required: true
-        default: 'no'
+        default: 'yes'
         type: choice
         options:
         - 'yes'
         - 'no'
       pppoe_account:
-        description: "宽带账号 (若启用PPPoE)"
+        description: "13927631330@139.gd"
         required: false
       pppoe_password:
-        description: "宽带密码 (若启用PPPoE)"
+        description: "665693"
         required: false
 
 jobs:
