@@ -31,7 +31,7 @@ for iface in /sys/class/net/*; do
         ifnames="$ifnames $iface_name"
     fi
 done
-ifnames=$(echo "$ifnames" | awk '{$1=$1};1')
+ifnames=$(echo "$ifnames" | awk '{$1=$1};2')
 
 count=$(echo "$ifnames" | wc -w)
 echo "Detected physical interfaces: $ifnames" >>$LOGFILE
