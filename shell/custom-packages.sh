@@ -58,3 +58,5 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-arpbind-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-autoreboot-zh-cn"
 #应用过滤
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-appfilter-zh-cn" 
+#端口转发（原版）
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-upnp-zh-cn" 
