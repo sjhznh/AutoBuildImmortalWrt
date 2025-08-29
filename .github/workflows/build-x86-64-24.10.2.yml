@@ -34,10 +34,10 @@ on:
         - 'yes'
         - 'no'
       pppoe_account:
-        description: "13927631330@139.gd"
+        description: "宽带账号"
         required: false
       pppoe_password:
-        description: "665693"
+        description: "宽带密码"
         required: false
 
 jobs:
